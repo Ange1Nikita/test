@@ -1,0 +1,789 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+    max-width: 100%; /* Убираем ограничение на ширину */
+    overflow-x: hidden; /* Предотвращаем горизонтальную прокрутку */
+    font-family: "Montserrat", serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+
+    width: 100vw;
+    width: 100%; /* Занимает всю доступную ширину */
+    height: 679px; /* Установите высоту, если нужно */
+    background-image: url(фон.png);
+    background-size: cover; /* Растягивает фоновое изображение */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Не повторяет изображение */
+    z-index: -1;
+}
+.section_header_top {
+
+}
+.section_shadow_top{
+    position: relative;
+    width: 100vw;
+    height: 679px; /* Установите высоту, если нужно */
+    background-image: url(тень.png);
+    background-size: cover; /* Растягивает фоновое изображение */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Не повторяет изображение */
+    z-index: 1;
+}
+.mail{margin-left: 895px;}
+.mail ul {
+    display: flex;
+    margin-bottom: -6px;
+}
+.mail li{
+    list-style-type: none;
+}
+.mail li a{
+    color: white;
+}
+.mail a{
+    padding-right: 41px;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.mail li:last-child a{
+    color: white;
+    opacity: 1;
+    font-size: 18px;
+}
+.nav_list{
+    display: flex;
+}
+.nav_list ul{
+    font-size: 18px;
+    margin-left: 661px ;
+    display: flex;
+}
+.nav_list li:first-child{
+    background-image: url(3_палки.png);
+    background-repeat: no-repeat;
+}
+.nav_list li{
+    color:white;
+    list-style-type: none;
+}
+.nav_list a{
+    margin-left: 28px;
+}
+.boton_green p{
+    margin: 0px;
+}
+.boton_green{
+    position: relative;
+    left: 72px;
+    top: -22px;
+    color: white;
+    border: solid 1px #159455;
+    padding: 17px;
+    border-radius: 30px;
+}
+.text_header_main_left{
+    position: relative;
+    font-weight: 800;
+    color:white;
+    line-height: 1;
+    margin-left: 329px;
+    top: 68px;
+    font-size: 29px;
+}
+.section_header_green_boton_left{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    border: solid 1px green;
+    width: 300px;
+    text-align: center;
+    border-radius: 42px;
+    background-color: #159455;
+    left: 326px;
+    top: 80px;
+}
+.section_elips{
+    position: relative;
+    background-image: url(Ellipse_6.png);
+    background-repeat: no-repeat;
+    left: 49%;
+    top: -23%;
+    height: 580px;
+}
+.section_elips h3{
+    position: relative;
+    color: white;
+    top: 67px;
+    left: 76px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+.section_foto_humen{
+    position: relative;
+    top:-53.5%
+    ;
+}
+.humen{
+    position: relative;
+    background-image: url(215343455333323_1.png);
+    height: 540px;
+    width: 417px;
+    right: -17%;
+}
+.section_play{
+    position: relative;
+    background-image:url(Play.png);
+    height: 70px;
+    width: 70px;
+    bottom: 94%;
+    left: -1.5%;
+}
+.section_rectange_1{
+    position: relative;
+    height: 123px;
+    width: auto;
+    bottom: 94%;
+    left: -3%;
+    background-image: url(Rectangle1.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+}
+.section_rectange_2{
+    position: relative;
+    height: 340px;
+    width: auto;
+    bottom: 116%;
+    left: 8%;
+    background-image: url(Rectangle_2.png);
+    border-radius: 8px;
+    background-repeat: no-repeat; 
+}
+main{
+    margin-left: 326px;
+}
+.section_Country_houses h5{
+    position: relative;
+    color:#159455;
+    top: 163px;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0px;
+}
+main h2{
+    position: relative;
+    top: 205px;
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0px;
+}
+main h4{
+    position: relative;
+    top: 116px;
+    left: 663px;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0px;
+}
+main h4::before{
+    content: "";
+    display: block;
+    width: 960px;
+    height: 1px;
+    background-color: #159455;
+    top: -23px;
+    position: relative;
+}
+.section_house{
+    position: relative;
+    background-image: url(House.png);
+    width: 846px;
+    height: 356px;
+    bottom: -201px;
+    left: -24%;
+}
+.section_colums_main {
+    display: flex;
+    position: relative;
+    left: 35.5%;
+    margin-top: -11%;
+    width: 40%; /* Ширина контейнера */
+}
+
+.column {
+    display: flex;
+    align-items: center; /* Выравнивает содержимое по центру вертикально */
+    gap: 10px; /* Отступ между иконкой и текстом */
+
+}
+
+.column img {
+    position: relative;
+    top: 38%;
+    left: 28%;
+    width: 52px; /* Размер иконки */
+    height: 52px; /* Размер иконки */
+}
+
+.section_colums_main h3 {
+    font-size: 18px; /* Размер шрифта */
+    line-height: 1.2; /* Межстрочный интервал */
+    color: #333; /* Цвет текста */
+    background-image: url(Rectangle5.png);
+    background-repeat: no-repeat;
+    background-position: left center; /* Позиционирование фона слева */
+    padding-left: 25px; /* Отступ слева для текста */
+    height: 124px;
+    width: 200px;
+    display: flex;
+    align-items: center; /* Выравнивание текста по центру */
+}
+.section_bild_live_main{
+    position: relative;
+    left: 40%;
+    top: 52px;
+    font-size: 20px;
+    line-height: 1.2;
+    width: 800;
+    margin: 0;
+}
+.section_bild_live_main span{
+    color:#159455;
+}
+.nav_house {
+    margin-right: 346px;
+    margin-top: 162px;
+    display: flex;
+    height: 80%;
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 20px; 
+}
+
+.nav_house h1 {
+    font-size: 40px;
+    margin-right: auto; 
+}
+
+.nav_house h5 a {
+    font-size: 16px; 
+    color: #333; 
+    text-decoration: none;
+    position: relative;
+    padding-top: 10px; /* Для подчеркивания */
+}
+.nav_house h5 a:hover{
+    color: #159455;
+}
+
+.nav_house h5 a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav_house h5 a:hover::before {
+    background-color: #159455; 
+}
+
+.line-grey {
+    position: relative;
+    right: 50px;
+    margin-top: 0px;
+    display: flex;
+    height: 80%;
+    align-items: center; 
+    justify-content: flex-end; 
+    gap: 20px; 
+}
+
+.line-grey::before {
+    content: "";
+    width: 862px;
+    height: 2px;
+    background-color: #ccc; /* Серый цвет основной полосы */
+    top: 11px;
+    left: 0px;
+    position: absolute;
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px; /* Отступ между рядами */
+    max-width: 1594px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+}
+
+.row {
+    display: flex;
+    gap: 20px; /* Отступ между домами */
+}
+
+.house {
+    width: calc(33.33% - 20px); /* Ширина каждого дома */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.house.first, .house.last {
+    width: calc(66.66% - 20px); /* Ширина первой и последней фотографии */
+}
+
+.house img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.house.first img, .house.last img {
+    width: 627px;
+    height: 306px;
+    object-fit: cover; /* Подгоняет изображение под заданные размеры */
+}
+
+.house:not(.first):not(.last) img {
+    width: 306px;
+    height: 306px;
+    object-fit: cover; /* Подгоняет изображение под заданные размеры */
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.info h2 {
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.area, .price {
+    text-align: center;
+}
+
+.area p, .price p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.area p:last-child, .price p:last-child {
+    font-size: 48px;
+    margin-top: 10px;
+}
+.section_bottom_green_project-house{
+    display: flex;
+    font-size: 18px;
+    color:white;
+    border: solid 1px green;
+    max-width: 310px;
+    background-color: #159455;
+    border-radius: 42px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 180px;
+}
+
+.section_black_project-house{
+    position: relative;
+    display: grid; /* Активируем режим grid */
+    grid-template-columns: 1fr 1fr; /* Создаем две равные колонки */
+    gap: 20px; /* Отступ между элементами (опционально) */
+    max-width: 1678px;
+    max-height: 481px;
+    background-color: #262626;
+    background-image: url(Ellipse_7.png);
+    background-repeat: no-repeat;
+}
+.column1 h1{
+    font-size: 48px;
+    color: white;
+    margin-left: 84px;
+    margin-top: 124px;
+    margin-bottom: 76px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+.column1 h5{
+    color: white;
+    margin-left: 84px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.column2 h2{
+    position: relative;
+    top: 81px;
+    color:white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.name_number{
+    display: grid; /* Активируем режим grid */
+    grid-template-columns: 1fr 1fr; /* Создаем две равные колонки */
+    gap: 20px; /* Отступ между элементами (опционально) */
+}
+
+.flex_name_number{
+    display: flex;
+    gap: 15px;
+}
+.column_1{
+    position: relative;
+    color: white;
+    font-size: 16px;
+    top: 142px;
+}
+.column_1 h5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.column_1 p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    opacity: 30%;
+}
+.column_1 p::after{
+    content: "";
+    display: block;
+    width: 306px;
+    height: 1px;
+    background-color:white;
+    margin-top: 7px;
+}
+.project_intresting .column_1 h5{
+    margin-top: 33px;
+}
+.project_intresting .column_1 p::after{
+    content: "";
+    display: block;
+    width: 627px;
+    height: 1px;
+    background-color:white;
+    margin-top: 7px;
+}
+.bottom_green_column2_footer h3{
+    display: flex;
+    color:white;
+    position: relative;
+    top: 158px;
+    font-weight: 500;
+    border: solid 1px green;
+    max-width: 261px;
+    text-align: center;
+    justify-content: center;
+    background-color: #159455;
+    padding-top:31px;
+    padding-bottom:31px;
+    border-radius: 42px;
+}
+
+
+.section_accept h6{
+    display: block;
+    position: relative;
+    top: 68px;
+    left: 276px;
+    color:#606060;
+    font-size: 13px;
+    background-image: url(CheckSquare.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+.section_column{
+    display: grid; /* Активируем режим grid */
+    grid-template-columns: 1fr 1fr; /* Создаем две равные колонки */
+    gap: 20px; /* Отступ между элементами (опционально) */
+    max-width: 1666px;
+    max-height: 490px;
+}
+.section_first_column h1{
+    font-size: 40px;
+    margin-top: 163px;
+    margin-bottom: 50px;
+}
+.section_img{
+    position: relative;
+    background-image: url(House1.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+    width: 627px;
+    height: 360px;
+}
+.img_shadow{
+    position: relative;
+    background-image: url(House1_1.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.section_KP_Project h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    position: relative;
+    bottom: 133px;
+    left: 19px;
+    z-index: 3;
+    color:white;
+}
+.section_KP_flex_project{
+    display: flex;
+    gap: 20px;
+}
+.section_square h5{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.2;
+    position: relative;
+    bottom: 155px;
+    left: 19px;
+    color: white;
+    z-index: 3;
+}
+
+.section_square h2{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    position: relative;
+    top: -174px;
+    left: 19px;
+    color: white;
+    z-index: 3;
+}
+.section_play{
+    position: relative;
+    left: 488px;
+    bottom: 287px;
+    z-index: 3;
+}
+.section_second_column h1{
+    margin-top: 163px;
+    margin-bottom: 74px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.section_second_column h1::before{
+    display: block;
+    content: "";
+    width: 952px;
+    height: 1px;
+    background-color: #159455;
+    margin-bottom: 23px;
+}
+
+.section_second_column .img_shadow .section_img{
+    background-image: url(House2.png);
+    background-repeat: no-repeat;
+}
+main .section_Grateful_clients{
+    width: 100%;
+    max-height: 1103px;
+    margin-top: 300px;
+    background-color:#F4F4F4;
+    margin-left: -326px;
+    padding-left: 369px;
+}
+.section_Grateful_clients_flex{
+    display: flex;
+    width: 100%;
+    gap: 106px;
+}
+.img_box{
+    margin-top: 91px;
+    width: 226px;
+    height: 174px;
+}
+.img_box h3{
+    font-size: 44px;
+    font-weight: 800;
+    color:#159455;
+    position: relative;
+    top: -165px;
+    left: -17px;
+}
+.img_box h5{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: black;
+    position: relative;
+    top: -174px;
+    left: -17px;
+    margin: 0;
+}
+.section_Experienced_Team{
+    width: 1269px;
+}
+.section_top_Experienced_Team{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+.section_top_Experienced_Team h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 58px;
+
+}
+.section_arrows{
+    display: flex;
+    width: 52px;
+    height: 52px;
+    margin-top: 24px;
+    gap: 9px;
+}
+.section_foto_team{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 104px;
+}
+.section_firs_team h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 0px;
+
+}
+.section_firs_team h5{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0px;
+    
+}
+.section_firs_team h5 span{
+    color:#159455;
+}
+.section_firs_team h5::after{
+    display: block;
+    content: "";
+    width: 198px;
+    height: 1px;
+    background-color:#DBDBDB;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.section_firs_team h6{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #B2B2B2;
+    margin-top: 15px;
+}
+.section_Customer_Reviews{
+    width: 100%;
+    margin-top: 5px;
+    padding-top: 94px;
+    background-color:#F4F4F4;
+    margin-left: -326px;
+    padding-left: 369px;
+}
+.section_customer_top{
+    max-width: 1275px;
+    display: flex;
+    justify-content: space-between;
+}
+.section_customer_top h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 54px;
+}
+.section_customer_main{
+    display: grid; /* Активируем режим grid */
+    grid-template-columns: 1fr 1fr; /* Создаем две равные колонки */
+    ; /* Отступ между элементами (опционально) */
+}
+.section_customer_while_rectangle {
+    display: grid; /* Активируем режим grid */
+    grid-template-columns: 1fr 1fr; /* Создаем две равные колонки */
+    gap: 40px; /* Устанавливаем расстояние между колонками в 40px */
+}
+.house_play{
+    position: relative;
+    top: -314px;
+    left: -50px;
+}
+.flex_customer_img_h3{
+    display: flex;
+    position: relative;
+    left: -471px;
+    top: 27px;
+}
+.section_top_main_h3_customer{
+    position: relative;
+    top: -22px;
+}
+.section_top_main_h3_customer h3{
+    font-size: 20px;
+    font-weight: 600;
+    width: 205px;
+    margin-bottom: 0px;
+    margin-left: 19px;
+}
+.img_green{
+    width: 48px;
+    height: 40px;
+}
+.section_top_main_h3_customer h5{
+    font-size: 12px;
+    font-weight: 600;
+    width: 205px;
+    margin-top: 3px;
+    margin-left: 19px;
+    color: #159455;
+}
+.section_big_text_customer h5{
+    margin-left: -471px;
+    line-height: 1.2;
+    font-size: 16px;
+    color: #262626;
+    font-weight: 400;
+}
+.section_big_text_customer h6{
+    margin-left: -471px;
+    line-height: 1.2;
+    font-size: 12px;
+    color: #159455;
+    font-weight: 600;
+}
+.section_customer_while_rectangle2{
+    position: relative;
+    left: -237px;
+}
