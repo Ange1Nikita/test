@@ -52,11 +52,14 @@ li a:hover {
     max-width: 1278px;
     width: 100%;
     padding-left: clamp(50px, 8.50vw, 130px);
-    padding-right: clamp(70px, 12.03vw, 182px);
+    padding-right: clamp(70px, 12.96vw, 182px);
     margin: 0 auto;
 }
 
-header {}
+header {
+    padding-left: clamp(50px, 8.50vw, 130px);
+    padding-right: clamp(70px, 12.96vw, 182px);
+}
 
 .header__grid {
     display: grid;
@@ -130,8 +133,6 @@ nav {
     display: flex;
     align-items: start;
     justify-content: start;
-    max-width: 1512px;
-    max-height: 751px;
     width: 108.5%;
     height: 100%;
     position: relative;
@@ -253,6 +254,7 @@ nav {
     gap: clamp(25px, 3.30vw, 50px);
     padding-bottom: clamp(46px, 7.34vw, 111px);
     width: 80%;
+    justify-self: center;
 }
 
 .violet__grid::after {
@@ -301,7 +303,86 @@ nav {
     padding-top: 2%;
     color: #592861;
 }
-
+.education{
+    background: linear-gradient(179deg, #25A2D8 8%, white 65%);
+}
+.education__title{
+    font-size: clamp(20px,1.98vw,30px);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding-top: clamp(40px,7.87vw,119px);
+    padding-bottom: clamp(23px,3.04vw,46px);
+    width: clamp(378px,82.67vw,1250px);
+}
+.education__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: clamp(10px,2.64vw,40px);
+    padding-bottom: 55px;
+    
+}
+.education__grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2FA1B0;
+    border-radius: 12px;
+}
+.education__grid-item-img{
+    padding-top: 40px;
+}
+.education__grid-item-text{
+    color: white;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Merry Christmas 2021', sans-serif;
+}
+.education__bitton{
+    width: 10%;
+    padding: 10px 26px;
+    margin: 0;
+}
+.header_button.education__margin-0{
+    margin: 0%;
+    padding-bottom: 114px;
+}
+.global-impact__title{
+    text-align: center;
+    color: #F53792;
+    font-size: 60px;
+    font-family: 'Merry Christmas 2021', sans-serif;
+    text-transform: uppercase;
+}
+.global-impact-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 43px;
+    padding-top: clamp(54px,4.96vw,75px);
+    padding-bottom: 50px;
+}
+.global-impact-grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.global-impact-grid-item-title{
+    font-size: 60px;
+    font-weight: 800;
+    color: #F53792;
+}
+.global-impact-grid-item-subtitle{
+    font-size: 22px;
+    font-weight: 600;
+    color: #2A3E8CC4;
+    padding-top: 19px;
+    width: 36%;
+    text-align: center;
+}
 @media (max-width:840px) {
     .header__grid {
         gap: clamp(10px, 3.57vw, 30px);
@@ -356,10 +437,25 @@ nav {
     .violet__grid::after {
         top: -58%;
     }
+    .education__grid{
+        grid-template-columns: repeat(2, 35%);
+        justify-content: center;
+    }
+    .global-impact-grid{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
 @media(max-width: 474px) {
+    .container {
+        max-width: 1278px;
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin: 0 auto;
+    }
     .header__grid {
         background: white;
     }
@@ -452,6 +548,12 @@ nav {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        justify-content: start;
+        align-items: start;
+    }
+    .violet__item{
+        width: 100%;
+        margin-left: -5%;
     }
     .violet__grid::after{
         top: -60%;
@@ -459,5 +561,20 @@ nav {
     }
     .violet__item-text{
         padding-right: 0;
+    }
+    .education__grid{
+        grid-template-columns: repeat(2, 44%);
+        justify-content: start;
+    }
+    .education__bitton{
+        display: flex;
+        width: 22%;
+    }
+    .header_button.education__margin-0{
+        display: flex;
+        padding-bottom: 74px;
+    }
+    .education__title{
+        width: 90%;
     }
 }
